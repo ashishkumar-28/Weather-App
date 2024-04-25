@@ -1,0 +1,40 @@
+.weather-info {
+    background-image: url('./Components/Background1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  
+  .weather-info h2 {
+    margin-top: 0;
+  }
+  
+  .details {
+    margin-top: 20px;
+  }
+  
+  .details .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .details .info-item img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .details .info-item span {
+    margin-right: 10px; 
+  }
+  
+  .weather-info p {
+    margin: 10px 0;
+  }
